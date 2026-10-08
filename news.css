@@ -1,0 +1,23 @@
+.heading-news{
+    font-family: "Agbalumo", system-ui;
+    color: #85a868;
+}
+.news{
+    font-family: "Agbalumo", system-ui;
+}
+.list{
+    color: #f7b563;
+}
+
+
+
+h1{
+    font-size:3.2rem;
+    font-family: "Agbalumo", system-ui;
+    text-align: center;
+}
+h2{
+    font-size: 2rem;
+    font-size: "Agbalumo", system-ui; 
+
+}

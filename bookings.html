@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Book A Table</h1>
+    <p>Kindly fill in the table below for your reservations</p>
+    <form action="api/vi/reservations" method="post">
+
+        <label for="Name">Name</label>
+        <input id="Name"type="text" name="client's name" placeholder="Enter your name" required >
+
+   <br>
+        <label for="Email">Email</label>
+        <input id="Email" type="email" name="client's email" placeholder="Input your email" required>
+
+        <br>
+        <label for="Contact">Phone number</label>
+        <input id="Contact" type="tel" name="Phone number" placeholder="Enter phone number" required >
+       
+    <br>
+    <ul>
+
+      <fieldset>
+        <legend> Choose the number of guests</legend>
+        <input id=extra small type="radio" name="guest number" value="extra-small" >
+        <label for="extra-small">1-100</label>
+        
+          <br>
+        <input id="small" type="radio" name="guest number" value="small" >
+        <label for="small">100-200</label>
+          <br>
+
+        <input id="medium" type="radio" name="guest number" value="medium">
+        <label for="medium">200-500</label>
+         <br>
+
+        <input id=medium-large type="radio" name="guest number" value="medium-large">
+        <label for="medium-large">500-700</label>
+         <br>
+        
+        <input id="large" type="radio" name="guest number" value="large">
+        <label for="large">more than 700</label>
+
+        </fieldset>
+     </ul>   
+
+
+        <br>
+        <label for="table numbers">Number of tables</label>
+        <input id="table numbers" type="text" name="number-of-tables" placeholder="Enter  number of tables" required>
+        
+        <br>
+        <label for="additional-information">Enter any other relevant information if any </label>
+        <textarea name="additional-information" id="additional-information" cols="30" rows="10"></textarea>
+       
+        
+        
+    <br>
+        <button type=submit>Submit</button>
+
+
+
+
+
+    </form>
+    
+</body>
+</html>
